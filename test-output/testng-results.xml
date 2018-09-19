@@ -1,89 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="5" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-19T01:54:01Z" name="Default suite" finished-at="2018-09-19T01:55:47Z" duration-ms="105809">
+  <suite started-at="2018-09-19T20:57:30Z" name="Default suite" finished-at="2018-09-19T20:58:27Z" duration-ms="57333">
     <groups>
     </groups>
-    <test started-at="2018-09-19T01:54:01Z" name="Default test" finished-at="2018-09-19T01:55:47Z" duration-ms="105809">
-      <class name="QAClickAcademy.HomepageBtnTest">
-        <test-method is-config="true" signature="initiate_browser()[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:54:01Z" name="initiate_browser" finished-at="2018-09-18T18:54:04Z" duration-ms="2668" status="PASS">
+    <test started-at="2018-09-19T20:57:30Z" name="Default test" finished-at="2018-09-19T20:58:27Z" duration-ms="57333">
+      <class name="QAClickAcademy.Validate_Login">
+        <test-method is-config="true" signature="initiate_browser()[pri:0, instance:QAClickAcademy.Validate_Login@6ad82709]" started-at="2018-09-19T13:57:30Z" name="initiate_browser" finished-at="2018-09-19T13:57:32Z" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate_browser -->
-        <test-method signature="LinktoLogin()[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:54:04Z" name="LinktoLogin" finished-at="2018-09-18T18:54:37Z" duration-ms="33039" status="PASS">
+        <test-method signature="LinktoLogin()[pri:0, instance:QAClickAcademy.Validate_Login@6ad82709]" started-at="2018-09-19T13:57:32Z" name="LinktoLogin" finished-at="2018-09-19T13:58:01Z" duration-ms="28542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinktoLogin -->
-        <test-method signature="logincreds(java.lang.String, java.lang.String)[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:54:37Z" name="logincreds" data-provider="send_data" finished-at="2018-09-18T18:54:59Z" duration-ms="22635" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Same@141]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="logincreds()[pri:0, instance:QAClickAcademy.Validate_Login@6ad82709]" started-at="2018-09-19T13:58:01Z" name="logincreds" finished-at="2018-09-19T13:58:25Z" duration-ms="23974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logincreds -->
-        <test-method signature="logincreds(java.lang.String, java.lang.String)[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:54:59Z" name="logincreds" data-provider="send_data" finished-at="2018-09-18T18:55:22Z" duration-ms="22423" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@myemail]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logincreds -->
-        <test-method signature="logincreds(java.lang.String, java.lang.String)[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:55:22Z" name="logincreds" data-provider="send_data" finished-at="2018-09-18T18:55:44Z" duration-ms="22310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logincreds -->
-        <test-method signature="logincreds(java.lang.String, java.lang.String)[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:55:44Z" name="logincreds" data-provider="send_data" finished-at="2018-09-18T18:55:45Z" duration-ms="584" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[spreethigupta]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logincreds -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:QAClickAcademy.HomepageBtnTest@4c178a76]" started-at="2018-09-18T18:55:45Z" name="close_browser" finished-at="2018-09-18T18:55:47Z" duration-ms="2132" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:QAClickAcademy.Validate_Login@6ad82709]" started-at="2018-09-19T13:58:25Z" name="close_browser" finished-at="2018-09-19T13:58:27Z" duration-ms="2317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
-      </class> <!-- QAClickAcademy.HomepageBtnTest -->
+      </class> <!-- QAClickAcademy.Validate_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
